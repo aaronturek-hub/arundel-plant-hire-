@@ -1,0 +1,384 @@
+\<!doctype html>
+\<html lang="en">
+\<head>
+\<meta charset="utf-8">
+\<meta name="viewport" content="width=device-width, initial-scale=1">
+\<meta name="description" content="Arundel Plant Hire — mini digger, doorway digger and tracked dumper hire across Arundel, Littlehampton and West Sussex.">
+\<title>Arundel Plant Hire | Digger & Dumper Hire West Sussex\</title>
+\<style>
+\:root{--yellow:#f5c400;--gold:#d9a900;--black:#0b0b0b;--dark:#151515;--panel:#1b1b1b;--line:#303030;--white:#fff;--muted:#bdbdbd;--shadow:0 14px 40px rgba(0,0,0,.22)}
+\*{box-sizing\:border-box}html{scroll-behavior\:smooth}body{margin:0;background\:var(--black);color\:var(--white);font-family\:Arial,Helvetica,sans-serif;line-height:1.5}
+a{color\:inherit;text-decoration\:none}.wrap{width\:min(1180px,calc(100% - 40px));margin\:auto}
+.topbar{background\:var(--yellow);color:#090909;font-weight:900;font-size:13px;padding:10px 0;text-align\:center;letter-spacing:.5px}
+header{position\:sticky;top:0;z-index:50;background\:rgba(11,11,11,.96);border-bottom:1px solid #292929;backdrop-filter\:blur(8px)}
+.nav{min-height:78px;display\:flex;align-items\:center;justify-content\:space-between;gap:20px}.brand{display\:flex;align-items\:center;gap:14px}.brand img{width:68px;height:68px;object-fit\:contain}.brand-name{font-weight:900;letter-spacing:1.5px;font-size:20px}.brand-sub{font-size:11px;color:#aaa;text-transform\:uppercase;letter-spacing:2px}
+nav{display\:flex;align-items\:center;gap:22px;font-weight:800;font-size:13px;letter-spacing:.3px}nav a\:hover{color\:var(--yellow)}
+.cta{display\:inline-flex;align-items\:center;justify-content\:center;background\:var(--yellow);color:#0b0b0b;border:2px solid var(--yellow);padding:13px 20px;border-radius:7px;font-weight:900;letter-spacing:.4px}.cta\:hover{background:#fff;border-color:#fff}.cta.outline{background\:transparent;color:#fff;border-color:#555}.cta.outline\:hover{border-color\:var(--yellow);color\:var(--yellow)}
+.hero{position\:relative;min-height:650px;display\:flex;align-items\:center;overflow\:hidden;background:#111}.hero\:before{content:"";position\:absolute;inset:0;background\:linear-gradient(90deg,rgba(8,8,8,.8) 0%,rgba(8,8,8,.62) 42%,rgba(8,8,8,.25) 72%,rgba(8,8,8,.55) 100%);z-index:1}.hero-bg{position\:absolute;inset:0;background\:url("images/hero-diggers-trailer.png") center/cover no-repeat;filter\:saturate(.8) brightness(1.2)}.hero-content{position\:relative;z-index:2;max-width:700px;padding:90px 0}.eyebrow{color\:var(--yellow);font-size:13px;font-weight:900;letter-spacing:2.4px;text-transform\:uppercase}.hero h1{font-size\:clamp(44px,7vw,78px);line-height:.95;margin:14px 0 22px;text-transform\:uppercase;letter-spacing:-2px}.hero p{font-size:20px;color:#ddd;max-width:650px}.actions{display\:flex;gap:12px;flex-wrap\:wrap;margin-top:30px}
+.hero-card{margin-top:34px;display\:flex;gap:22px;flex-wrap\:wrap}.quick{background\:rgba(18,18,18,.88);border:1px solid #444;border-left:4px solid var(--yellow);padding:14px 18px;border-radius:7px}.quick strong{display\:block;font-size:18px}.quick span{font-size:13px;color:#aaa}
+.strip{background\:var(--yellow);color:#090909;font-weight:900}.strip-grid{display\:grid;grid-template-columns\:repeat(3,1fr);text-align\:center}.strip-item{padding:16px;border-right:1px solid rgba(0,0,0,.2)}.strip-item\:last-child{border:0}
+section{padding:72px 0}.dark-section{background:#151515}.section-head{max-width:720px}.section-head h2{font-size\:clamp(34px,5vw,50px);line-height:1;margin:8px 0 14px;text-transform\:uppercase}.section-head p{color\:var(--muted);font-size:17px;max-width:680px}
+.machines{display\:grid;grid-template-columns\:repeat(3,1fr);gap:20px;margin-top:34px}.machine{background\:var(--panel);border:1px solid var(--line);border-radius:12px;overflow\:hidden;display\:flex;flex-direction\:column;box-shadow\:var(--shadow);transition\:transform .2s,border-color .2s}.machine\:hover{transform\:translateY(-4px);border-color:#4a4a4a}.machine-img{height:250px;background:#fff;overflow\:hidden;display\:flex;align-items\:center;justify-content\:center}.machine-img img{width:100%;height:100%;object-fit\:contain;transition\:transform .4s}.machine\:hover img{transform\:scale(1.04)}.machine-body{padding:22px}.machine h3{font-size:25px;margin:0 0 8px}.machine p{color:#bbb;min-height:70px}.price{font-size:30px;font-weight:900;color\:var(--yellow);margin:16px 0}.price small{font-size:13px;color:#aaa;font-weight:700}.machine .cta{width:100%}
+.offer{margin-top:30px;background\:var(--yellow);color:#090909;border-radius:10px;padding:22px 26px;display\:flex;justify-content\:space-between;gap:20px;align-items\:center}.offer strong{font-size:20px;text-transform\:uppercase}.offer span{font-size:14px;font-weight:700}
+.about-grid{display\:grid;grid-template-columns:1fr 1fr;gap:50px;align-items\:center}.ticks{list-style\:none;padding:0;margin:25px 0}.ticks li{padding:10px 0;font-weight:800;border-bottom:1px solid #2d2d2d}.ticks li\:before{content:"✓";color\:var(--yellow);font-size:20px;margin-right:12px}.about-image{border-radius:12px;overflow\:hidden;border:1px solid #444}.about-image img{width:100%;display\:block;min-height:380px;object-fit\:cover}
+.steps{display\:grid;grid-template-columns\:repeat(4,1fr);gap:18px;margin-top:38px}.step{background:#1b1b1b;border:1px solid #333;border-radius:10px;padding:24px}.num{width:42px;height:42px;border-radius:50%;background\:var(--yellow);color:#111;display\:grid;place-items\:center;font-weight:900;margin-bottom:18px}.step h3{margin:0 0 8px}.step p{color:#aaa;font-size:15px}
+.booking{background:#0e0e0e}.booking-grid{display\:grid;grid-template-columns:1.1fr .9fr;gap:30px;margin-top:35px}.form,.contact-card{background:#191919;border:1px solid #353535;border-radius:12px;padding:26px;box-shadow\:var(--shadow)}.form-grid{display\:grid;grid-template-columns:1fr 1fr;gap:16px}label{display\:block;font-size:13px;font-weight:800;margin-bottom:6px}input,select,textarea{width:100%;padding:13px 14px;background:#0d0d0d;border:1px solid #444;color:#fff;border-radius:6px;font\:inherit}textarea{min-height:120px;resize\:vertical}.full{grid-column:1/-1}.form .cta{width:100%;margin-top:18px}.note{color:#999;font-size:12px;margin-top:10px}.contact-card h3{font-size:28px;margin-top:0}.contact-line{padding:16px 0;border-bottom:1px solid #333}.contact-line\:last-child{border:0}.contact-line strong{display\:block;color:#999;font-size:12px;text-transform\:uppercase;letter-spacing:1.4px}.contact-line a{font-size:20px;font-weight:900;color\:var(--yellow)}
+.area{display\:flex;flex-wrap\:wrap;gap:10px;margin-top:25px}.pill{border:1px solid #444;border-radius:99px;padding:8px 14px;color:#ddd}
+.price-list{margin-top:34px}.price-card{background\:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow\:var(--shadow);overflow\:hidden}.price-card-head{padding:24px 26px;border-bottom:1px solid var(--line);display\:flex;justify-content\:space-between;align-items\:center;gap:16px;flex-wrap\:wrap}.price-card-head h3{margin:0;font-size:22px}.price-card-head span{color\:var(--muted);font-size:13px;font-weight:700}.price-table-wrap{overflow-x\:auto}.price-table{width:100%;border-collapse\:collapse;font-size:14px;min-width:640px}.price-table th,.price-table td{padding:14px 18px;text-align\:left;border-bottom:1px solid var(--line);white-space\:nowrap}.price-table th{background\:rgba(245,196,0,.14);font-weight:900;text-transform\:uppercase;font-size:11px;letter-spacing:.8px;color\:inherit}
+@media(max-width:600px){.price-card-head,.price-card-foot{padding:18px 20px}}.price-table td\:first-child{font-weight:800}.price-table tbody tr\:last-child td{border-bottom:0}.price-table tbody tr\:hover{background\:rgba(245,196,0,.07)}.price-card-foot{padding:20px 26px;border-top:1px solid var(--line);display\:flex;justify-content\:space-between;align-items\:center;gap:16px;flex-wrap\:wrap}.price-card-foot span{color\:var(--muted);font-size:13px;max-width:520px}
+footer{border-top:1px solid #292929;padding:35px 0;color:#888}.footer-row{display\:flex;justify-content\:space-between;gap:20px;flex-wrap\:wrap}.footer-brand{color:#fff;font-weight:900}
+.mobile-cta{display\:none}
+@media(max-width:900px){nav{display\:none}.machines{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.about-grid,.booking-grid{grid-template-columns:1fr}.hero{min-height:650px}.hero-bg{background-position:65% center}}
+@media(max-width:600px){.wrap{width\:min(100% - 28px,1180px)}.brand img{width:58px;height:58px}.brand-name{font-size:16px}.strip-grid{grid-template-columns:1fr}.strip-item{border-right:0;border-bottom:1px solid rgba(0,0,0,.2)}section{padding:62px 0}.hero-content{padding:70px 0}.hero h1{font-size:47px}.hero p{font-size:17px}.steps,.form-grid{grid-template-columns:1fr}.full{grid-column\:auto}.offer{flex-direction\:column;align-items\:flex-start}.mobile-cta{display\:block;position\:fixed;bottom:0;left:0;right:0;z-index:60;padding:10px;background:#090909;border-top:1px solid #333}.mobile-cta .cta{width:100%}body{padding-bottom:67px}}
+
+.social-links{display\:flex;gap:10px;margin-top:18px;flex-wrap\:wrap}.social-link{display\:inline-flex;align-items\:center;gap:9px;padding:10px 14px;border:1px solid rgba(255,255,255,.18);border-radius:999px;color:#fff;text-decoration\:none;font-weight:800;font-size:13px;transition:.2s}.social-link\:hover{transform\:translateY(-2px);border-color:#f5c400;background\:rgba(245,196,0,.1)}.social-link svg{width:18px;height:18px;fill\:currentColor}
+
+.top-social-buttons{background:#0b0b0b;padding:9px 0;border-bottom:1px solid #292929;box-shadow:0 4px 18px rgba(0,0,0,.18)}
+.top-social-buttons .top-social-inner{display\:flex;align-items\:center;justify-content\:center;gap:10px;flex-wrap\:wrap}
+.top-social-buttons a{display\:inline-flex;align-items\:center;justify-content\:center;gap:8px;min-width:150px;padding:10px 16px;border-radius:8px;font-weight:900;font-size:12px;letter-spacing:.35px;text-transform\:uppercase;border:2px solid transparent;background:#fff;color:#111;transition\:transform .2s,filter .2s,box-shadow .2s;box-shadow:0 5px 14px rgba(0,0,0,.2)}
+.top-social-buttons a\:hover{transform\:translateY(-2px);filter\:brightness(1.06);box-shadow:0 8px 18px rgba(0,0,0,.28)}
+.top-social-buttons .top-hire{background:#f5c400;border-color:#f5c400}
+.top-social-buttons .top-facebook{background:#1877f2;border-color:#1877f2;color:#fff}
+.top-social-buttons .top-instagram{background\:linear-gradient(90deg,#e1306c,#833ab4);border-color:#e1306c;color:#fff}
+.top-social-buttons .top-google{background:#fff;border-color:#34a853;color:#111}
+.top-social-buttons .top-whatsapp{background:#25d366;border-color:#25d366;color:#fff;min-width:210px;font-size:13px;padding:12px 20px}
+@media(max-width:600px){.top-social-buttons .top-social-inner{gap:7px}.top-social-buttons a{min-width:0;flex:1 1 45%;padding:10px 8px;font-size:11px}}
+
+
+
+/\* Lighter, friendlier finish — existing layout retained \*/
+\:root{
+  \--yellow:#f5c400;
+  \--gold:#d9a900;
+  \--black:#1b1d1f;
+  \--dark:#f4f5f2;
+  \--panel:#ffffff;
+  \--line:#e1e4e6;
+  \--white:#ffffff;
+  \--muted:#626a70;
+  \--shadow:0 10px 28px rgba(20,30,35,.10)
+}
+body{background:#f5f6f4;color:#202427}
+header{background\:rgba(255,255,255,.97);border-bottom:1px solid #e5e7e8;box-shadow:0 3px 16px rgba(20,30,35,.06)}
+.brand-name{color:#202427}.brand-sub{color:#697177}
+nav a{color:#30363a}nav a\:hover{color:#d39f00}
+.dark-section{background:#eef0ed}
+section{background:#f5f6f4}
+.section-head p{color:#626a70}
+.section-head h2{color:#202427}
+.machine{background:#fff;border:1px solid #e0e3e5;box-shadow\:var(--shadow)}
+.machine\:hover{border-color:#c9ced1}
+.machine p{color:#626a70}
+.machine-img{background:#fff}
+.step{background:#fff;border:1px solid #e0e3e5;box-shadow:0 8px 24px rgba(20,30,35,.06)}
+.step p{color:#626a70}
+.booking{background:#eef0ed}
+.form,.contact-card{background:#fff;border:1px solid #e0e3e5;box-shadow\:var(--shadow)}
+input,select,textarea{background:#fff;border:1px solid #cfd4d7;color:#202427}
+input\:focus,select\:focus,textarea\:focus{outline:2px solid rgba(245,196,0,.35);border-color:#d9a900}
+.contact-line{border-bottom:1px solid #e4e6e7}
+.contact-line strong{color:#697177}
+.area .pill{border-color:#cfd4d7;color:#454c50;background:#fff}
+footer{background:#202427;border-top:0;color:#bfc5c8}
+.footer-brand{color:#fff}
+.offer{box-shadow:0 8px 22px rgba(20,30,35,.10)}
+.quick{background\:rgba(255,255,255,.94);border:1px solid #e0e3e5;color:#202427}
+.quick span{color:#697177}
+.top-social-buttons{box-shadow:0 3px 14px rgba(20,30,35,.12)}
+.social-link{border-color:#dfe3e5;color:#30363a}
+
+
+
+/\* Smaller, cleaner social buttons \*/
+.top-social-buttons{padding:6px 0}
+.top-social-buttons .top-social-inner{gap:7px}
+.top-social-buttons a{min-width:125px;padding:7px 11px;border-radius:5px;font-size:11px;letter-spacing:.15px}
+@media(max-width:600px){
+  .top-social-buttons a{min-width:0;flex:0 1 auto;padding:7px 9px;font-size:10px}
+}
+
+
+
+
+
+.top-social-buttons{padding:7px 0}
+.top-social-buttons .top-social-inner{display\:flex;align-items\:center;justify-content\:flex-end;gap:8px}
+.top-social-buttons a{
+  width:34px;height:34px;min-width:34px!important;
+  padding:0!important;border-radius:50%;
+  display\:inline-flex;align-items\:center;justify-content\:center;
+  font-size:18px!important;font-weight:800;line-height:1;
+  text-decoration\:none;box-shadow:0 1px 3px rgba(0,0,0,.14);
+  border:1px solid rgba(0,0,0,.12)!important;
+  transition\:transform .15s ease,box-shadow .15s ease,opacity .15s ease;
+}
+.top-social-buttons a\:hover{transform\:translateY(-1px);box-shadow:0 3px 8px rgba(0,0,0,.18);opacity:.94}
+.top-social-buttons .top-facebook{background:#1877f2;color:#fff}
+.top-social-buttons .top-instagram{background:#d62976;color:#fff}
+.top-social-buttons .top-google{background:#fff;color:#4285f4}
+.top-social-buttons .top-whatsapp{background:#25d366;color:#fff}
+@media(max-width:600px){
+  .top-social-buttons .top-social-inner{justify-content\:center;gap:7px}
+  .top-social-buttons a{width:32px;height:32px;min-width:32px!important}
+}
+
+
+
+/\* App-style social icons \*/
+.top-social-buttons .top-social-inner{gap:8px}
+.top-social-buttons .app-icon{
+  width:34px;height:34px;min-width:34px!important;padding:0!important;
+  border-radius:8px!important;
+  display\:inline-flex;align-items\:center;justify-content\:center;
+  border:1px solid rgba(0,0,0,.12)!important;
+  box-shadow:0 1px 4px rgba(0,0,0,.14);
+  transition\:transform .15s ease,box-shadow .15s ease;
+}
+.top-social-buttons .app-icon\:hover{transform\:translateY(-1px);box-shadow:0 3px 8px rgba(0,0,0,.18)}
+.top-social-buttons .app-icon svg{width:19px;height:19px;display\:block;fill\:currentColor}
+.top-social-buttons .instagram-icon svg{fill\:none;stroke\:currentColor;stroke-width:2}
+.top-social-buttons .instagram-icon .dot{fill\:currentColor;stroke\:none}
+.top-social-buttons .facebook-icon{background:#1877f2!important;color:#fff!important}
+.top-social-buttons .instagram-icon{background:#e1306c!important;color:#fff!important}
+.top-social-buttons .google-icon{background:#fff!important;color:#4285f4!important}
+.top-social-buttons .whatsapp-icon{background:#25d366!important;color:#fff!important}
+@media(max-width:600px){
+  .top-social-buttons .app-icon{width:32px;height:32px;min-width:32px!important}
+  .top-social-buttons .app-icon svg{width:18px;height:18px}
+}
+
+\</style>
+\</head>
+\<body>
+\<div class="topbar">FREE DELIVERY &amp; COLLECTION ON ALL HIRES OVER 2 DAYS\</div>
+
+\<div class="top-social-buttons">
+  \<div class="wrap top-social-inner">
+    \<a class="app-icon facebook-icon" href="[https://www.facebook.com/arundelplanthire/?locale=en\_GB](https://www.facebook.com/arundelplanthire/?locale=en_GB)" target="\_blank" rel="noopener noreferrer" aria-label="Facebook" title="Facebook">
+      \<svg viewBox="0 0 24 24" aria-hidden="true">\<path d="M14 8h3V4h-3c-3.3 0-5 1.9-5 5v3H6v4h3v4h4v-4h3l1-4h-4V9c0-.7.3-1 1-1z"/>\</svg>
+    \</a>
+    \<a class="app-icon instagram-icon" href="[https://www.instagram.com/arundelplant\_hire/](https://www.instagram.com/arundelplant_hire/)" target="\_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram">
+      \<svg viewBox="0 0 24 24" aria-hidden="true">\<rect x="3" y="3" width="18" height="18" rx="5"/>\<circle cx="12" cy="12" r="4.2"/>\<circle class="dot" cx="17.4" cy="6.7" r="1.1"/>\</svg>
+    \</a>
+    \<a class="app-icon google-icon" href="[https://g.page/r/CYo3UeVEOiDEEBM/review](https://g.page/r/CYo3UeVEOiDEEBM/review)" target="\_blank" rel="noopener noreferrer" aria-label="Google Reviews" title="Google Reviews">
+      \<svg viewBox="0 0 24 24" aria-hidden="true">\<path d="M12 3.2l2.1 5.4 5.8.4-4.4 3.7 1.4 5.6-4.9-3-4.9 3 1.4-5.6-4.4-3.7 5.8-.4L12 3.2z"/>\</svg>
+    \</a>
+    \<a class="app-icon whatsapp-icon" href="[https://wa.me/447557367638](https://wa.me/447557367638)" target="\_blank" rel="noopener noreferrer" aria-label="WhatsApp" title="WhatsApp">
+      \<svg viewBox="0 0 24 24" aria-hidden="true">\<path d="M20.5 3.5A11.9 11.9 0 0 0 12 0 12 12 0 0 0 1.6 18.1L0 24l6.1-1.6A12 12 0 1 0 20.5 3.5zM12 21.8a9.8 9.8 0 0 1-5-1.4l-.4-.2-3.6.9 1-3.5-.2-.4A9.8 9.8 0 1 1 12 21.8zm5.4-7.3c-.3-.2-1.8-.9-2.1-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8 8 0 0 1-2.3-1.4 8.8 8.8 0 0 1-1.6-2c-.2-.3 0-.5.2-.7l.5-.6c.2-.2.2-.4.3-.6s0-.4-.1-.6-.7-1.7-1-2.3c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4s-1.2 1.1-1.2 2.7 1.2 3.1 1.4 3.3a11.8 11.8 0 0 0 4.6 4.2c.6.3 1.1.5 1.5.6.6.2 1.2.2 1.7.1.5-.1 1.8-.7 2-1.4s.3-1.3.2-1.4z"/>\</svg>
+    \</a>
+  \</div>
+\</div>
+
+\<header>
+\<div class="wrap nav">
+\<a class="brand" href="#home">
+\<img src="images/logo.png" alt="Arundel Plant Hire logo">
+\<div>\<div class="brand-name">ARUNDEL PLANT HIRE\</div>\<div class="brand-sub">West Sussex\</div>\</div>
+\</a>
+\<nav>\<a href="#home">Home\</a>\<a href="#machines">Machines\</a>\<a href="#pricing">Price List\</a>\<a href="#why">Why Us\</a>\<a href="/booking/">Hire Now\</a>\<a href="#contact">Contact\</a>\</nav>
+\<a class="cta" href="/booking/">HIRE NOW\</a>
+\</div>
+\</header>
+
+\<main id="home">
+\<section class="hero">
+\<div class="hero-bg">\</div>
+\<div class="wrap hero-content">
+\<div class="eyebrow">Local Plant Hire • Arundel • Littlehampton • West Sussex\</div>
+\<h1>Plant Hire\<br>Done Right.\</h1>
+\<p>Reliable and affordable plant hire for homeowners, builders, landscapers and contractors throughout Arundel, Littlehampton and surrounding West Sussex.\</p>
+\<div class="actions">\<a class="cta" href="/booking/">HIRE NOW\</a>\<a class="cta outline" href="tel:07557367638">CALL 07557 367638\</a>\</div>
+\<div class="hero-card">
+\<div class="quick">\<strong>1.5 Tonne\</strong>\<span>Kubota 17A Mini Digger\</span>\</div>
+\<div class="quick">\<strong>£90 / day\</strong>\<span>Clear, simple pricing\</span>\</div>
+\</div>
+\</div>
+\</section>
+
+\<div class="strip">\<div class="wrap strip-grid">\<div class="strip-item">✓ RELIABLE EQUIPMENT\</div>\<div class="strip-item">✓ LOCAL WEST SUSSEX SERVICE\</div>\<div class="strip-item">✓ CARD PAYMENTS ACCEPTED\</div>\</div>\</div>
+
+\<section id="machines">
+\<div class="wrap">
+\<div class="section-head">\<div class="eyebrow">Our Machines & Equipment\</div>\<h2>Choose Your Machine\</h2>\<p>Clear 1–5 day hire rates for diggers, dumpers and site equipment across Arundel, Littlehampton and West Sussex.\</p>\</div>
+
+\<div class="machines">
+\<article class="machine">
+\<div class="machine-img">\<img src="images/kubota-u17a-supplied.png" alt="Kubota 17A mini digger">\</div>
+\<div class="machine-body">\<h3>1.5 &amp; 1.7 Ton Excavator Hire\</h3>\<p>Versatile mini excavator for groundwork, landscaping, trenching and general excavation.\</p>
+\<div class="price">£90 \<small>per day + VAT\</small>\</div>
+\<div class="rate">2 days £170 + VAT · 3 days £210 + VAT · 4 days £225 + VAT · 5 days £245 + VAT\</div>
+\<a class="cta" href="/booking/?machine=1.5%20%26%201.7%20Ton%20Excavator%20Hire">HIRE THIS MACHINE\</a>\</div>
+\</article>
+
+\<article class="machine">
+\<div class="machine-img">\<img src="images/jcb-8014.png" alt="JCB 8014 1.5 ton excavator">\</div>
+\<div class="machine-body">\<h3>1.5 Ton Excavator Hire\</h3>\<p>Reliable compact excavator for a wide range of building, groundwork and landscaping jobs.\</p>
+\<div class="price">£90 \<small>per day + VAT\</small>\</div>
+\<div class="rate">2 days £170 + VAT · 3 days £210 + VAT · 4 days £225 + VAT · 5 days £245 + VAT\</div>
+\<a class="cta" href="/booking/?machine=1.5%20Ton%20Excavator%20Hire">HIRE THIS MACHINE\</a>\</div>
+\</article>
+
+\<article class="machine">
+\<div class="machine-img">\<img src="images/kubota-u10.png" alt="1 ton doorway excavator">\</div>
+\<div class="machine-body">\<h3>1 Ton Excavator Hire (Doorway)\</h3>\<p>Compact doorway excavator for tight access, restricted areas and indoor work.\</p>
+\<div class="price">£90 \<small>per day + VAT\</small>\</div>
+\<div class="rate">2 days £170 + VAT · 3 days £210 + VAT · 4 days £225 + VAT · 5 days £245 + VAT\</div>
+\<a class="cta" href="/booking/?machine=1%20Ton%20Excavator%20Hire%20(Doorway)">HIRE THIS MACHINE\</a>\</div>
+\</article>
+
+\<article class="machine">
+\<div class="machine-img">\<img src="images/rhinoceros-xn800.png" alt="Rhinoceros XN800 tracked dumper">\</div>
+\<div class="machine-body">\<h3>Tracked Dumper Hire\</h3>\<p>Move soil, rubble and aggregates around site efficiently and safely.\</p>
+\<div class="price">£60 \<small>per day + VAT\</small>\</div>
+\<div class="rate">2 days £108 + VAT · 3 days £162 + VAT · 4 days £192 + VAT · 5 days £240 + VAT\</div>
+\<a class="cta" href="/booking/?machine=Tracked%20Dumper%20Hire">HIRE THIS MACHINE\</a>\</div>
+\</article>
+
+\<article class="machine">
+\<div class="machine-img">\<img src="images/belle-150.png" alt="Belle 150 cement mixer">\</div>
+\<div class="machine-body">\<h3>Cement Mixer Hire\</h3>\<p>Practical mixer hire for building, extension and landscaping projects.\</p>
+\<div class="price">£20 \<small>per day + VAT\</small>\</div>
+\<div class="rate">2 days £36 + VAT · 3 days £40 + VAT · 4 days £45 + VAT · 5 days £50 + VAT\</div>
+\<a class="cta" href="/booking/?machine=Cement%20Mixer%20Hire">HIRE THIS EQUIPMENT\</a>\</div>
+\</article>
+
+\<article class="machine">
+\<div class="machine-img">\<img src="images/bosch-concrete-breaker.png" alt="Bosch concrete breaker">\</div>
+\<div class="machine-body">\<h3>Concrete Breaker Hire\</h3>\<p>For breaking concrete, paving and other hard surfaces.\</p>
+\<div class="price">£20 \<small>per day + VAT\</small>\</div>
+\<div class="rate">2 days £36 + VAT · 3 days £40 + VAT · 4 days £45 + VAT · 5 days £50 + VAT\</div>
+\<a class="cta" href="/booking/?machine=Concrete%20Breaker%20Hire">HIRE THIS EQUIPMENT\</a>\</div>
+\</article>
+
+\<article class="machine">
+\<div class="machine-img">\<img src="images/stihl-ts420.png" alt="STIHL TS420 disc cutter">\</div>
+\<div class="machine-body">\<h3>Disc Cutter Hire\</h3>\<p>Site equipment for cutting masonry and other materials.\</p>
+\<div class="price">£20 \<small>per day + VAT\</small>\</div>
+\<div class="rate">2 days £36 + VAT · 3 days £40 + VAT · 4 days £45 + VAT · 5 days £50 + VAT\</div>
+\<a class="cta" href="/booking/?machine=Disc%20Cutter%20Hire">HIRE THIS EQUIPMENT\</a>\</div>
+\</article>
+
+\<article class="machine">
+\<div class="machine-img">\<img src="images/wacker-plate.png" alt="Plant hire equipment">\</div>
+\<div class="machine-body">\<h3>Wacker Plate Hire\</h3>\<p>Compact and prepare driveways, paths, patios and other ground surfaces.\</p>
+\<div class="price">£20 \<small>per day + VAT\</small>\</div>
+\<div class="rate">2 days £36 + VAT · 3 days £40 + VAT · 4 days £45 + VAT · 5 days £50 + VAT\</div>
+\<a class="cta" href="/booking/?machine=Wacker%20Plate%20Hire">HIRE THIS EQUIPMENT\</a>\</div>
+\</article>
+\</div>
+
+\<div class="offer">\<div>\<strong>Hire for more than 2 days?\</strong>\<br>\<span>Free delivery and collection on hires over 2 days for the main plant. Free delivery and collection on week hire (5 days) for smaller equipment.\</span>\</div>\<a class="cta outline" href="/booking/" style="border-color:#111;color:#111">CHECK AVAILABILITY\</a>\</div>
+\</div>\</section>
+
+\<section id="pricing">
+\<div class="wrap">
+\<div class="section-head">\<div class="eyebrow">Simple, Transparent Pricing\</div>\<h2>Full Price List\</h2>\<p>Every machine and tool at a glance, with clear day rates and automatic savings the longer you hire.\</p>\</div>
+\<div class="price-list">
+\<div class="price-card">
+\<div class="price-card-head">\<h3>Daily Hire Rates\</h3>\<span>All prices exclude VAT\</span>\</div>
+\<div class="price-table-wrap">
+\<table class="price-table">
+\<thead>\<tr>\<th>Equipment\</th>\<th>1 Day\</th>\<th>2 Days\</th>\<th>3 Days\</th>\<th>4 Days\</th>\<th>5 Days\</th>\</tr>\</thead>
+\<tbody>
+\<tr>\<td>1.5 &amp; 1.7 Ton Excavator\</td>\<td>£90\</td>\<td>£170\</td>\<td>£210\</td>\<td>£225\</td>\<td>£245\</td>\</tr>
+\<tr>\<td>1.5 Ton Excavator\</td>\<td>£90\</td>\<td>£170\</td>\<td>£210\</td>\<td>£225\</td>\<td>£245\</td>\</tr>
+\<tr>\<td>1 Ton Excavator (Doorway)\</td>\<td>£90\</td>\<td>£170\</td>\<td>£210\</td>\<td>£225\</td>\<td>£245\</td>\</tr>
+\<tr>\<td>Tracked Dumper\</td>\<td>£60\</td>\<td>£108\</td>\<td>£162\</td>\<td>£192\</td>\<td>£240\</td>\</tr>
+\<tr>\<td>Cement Mixer\</td>\<td>£20\</td>\<td>£36\</td>\<td>£40\</td>\<td>£45\</td>\<td>£50\</td>\</tr>
+\<tr>\<td>Concrete Breaker\</td>\<td>£20\</td>\<td>£36\</td>\<td>£40\</td>\<td>£45\</td>\<td>£50\</td>\</tr>
+\<tr>\<td>Disc Cutter\</td>\<td>£20\</td>\<td>£36\</td>\<td>£40\</td>\<td>£45\</td>\<td>£50\</td>\</tr>
+\<tr>\<td>Wacker Plate\</td>\<td>£20\</td>\<td>£36\</td>\<td>£40\</td>\<td>£45\</td>\<td>£50\</td>\</tr>
+\</tbody>
+\</table>
+\</div>
+\<div class="price-card-foot">\<span>Free delivery &amp; collection on hires over 2 days for main plant, and on 5-day hires for smaller equipment.\</span>\<a class="cta" href="/booking/">HIRE NOW\</a>\</div>
+\</div>
+\</div>
+\</div>
+\</section>
+
+\<section id="why" class="dark-section">
+\<div class="wrap about-grid">
+\<div>\<div class="eyebrow">Why Choose Us\</div>\<h2 class="section-head" style="font-size\:clamp(34px,5vw,50px);margin:8px 0">Local, Reliable &amp; Straightforward\</h2>\<p class="section-lead" style="color:#bbb">We keep plant hire simple: dependable machines, clear daily prices and local delivery across West Sussex.\</p>
+\<ul class="ticks">\<li>Clear daily hire rates\</li>\<li>Free delivery &amp; collection over 2 days\</li>\<li>Serving domestic customers and trades\</li>\<li>Card payments accepted\</li>\<li>Quick, straightforward booking\</li>\</ul>\</div>
+\<div class="about-image">\<img src="images/plant-4.jpeg" alt="Arundel Plant Hire equipment">\</div>
+\</div>
+\</section>
+
+\<section>
+\<div class="wrap">\<div class="section-head">\<div class="eyebrow">How It Works\</div>\<h2>Hire In 4 Simple Steps\</h2>\</div>
+\<div class="steps">
+\<div class="step">\<div class="num">01\</div>\<h3>Choose your machine\</h3>\<p>Pick the digger or dumper that suits your job.\</p>\</div>
+\<div class="step">\<div class="num">02\</div>\<h3>Tell us your dates\</h3>\<p>Send your preferred hire dates and postcode.\</p>\</div>
+\<div class="step">\<div class="num">03\</div>\<h3>We confirm\</h3>\<p>We'll confirm availability, delivery and the price.\</p>\</div>
+\<div class="step">\<div class="num">04\</div>\<h3>Get to work\</h3>\<p>Your machine is delivered ready for your project.\</p>\</div>
+\</div>\</div>
+\</section>
+
+\<section id="booking" class="booking">
+\<div class="wrap">\<div class="section-head">\<div class="eyebrow">Hire Now\</div>\<h2>Book Your Plant Hire\</h2>\<p>Send your requirements and we'll get back to confirm availability and delivery.\</p>\</div>
+\<div class="booking-grid">
+\<form class="form" id="hire-enquiry" onsubmit="sendHireWhatsApp(event)">
+\<div class="form-grid">
+\<div>\<label for="machine">Machine\</label>\<select id="machine" name="machine" required>\<option value="">Select machine\</option>\<option>1.5 &amp; 1.7 Ton Excavator Hire – £90/day + VAT\</option>
+\<option>1.5 Ton Excavator Hire – £90/day + VAT\</option>
+\<option>1 Ton Excavator Hire (Doorway) – £90/day + VAT\</option>
+\<option>Tracked Dumper Hire – £60/day + VAT\</option>
+\<option>Cement Mixer Hire – £20/day + VAT\</option>
+\<option>Concrete Breaker Hire – £20/day + VAT\</option>
+\<option>Disc Cutter Hire – £20/day + VAT\</option>
+\<option>Wacker Plate Hire – £20/day + VAT\</option>\</select>\</div>
+\<div>\<label for="days">Hire length\</label>\<select id="days" name="hire\_length" required>\<option value="">Select\</option>\<option>1 day\</option>\<option>2 days\</option>\<option>3 days\</option>\<option>4 days\</option>\<option>5 days\</option>\<option>Longer hire\</option>\</select>\</div>
+\<div>\<label for="start">Start date\</label>\<input id="start" name="start\_date" type="date" required>\</div>
+\<div>\<label for="end">End date\</label>\<input id="end" name="end\_date" type="date">\</div>
+\<div>\<label for="name">Your name\</label>\<input id="name" name="name" autocomplete="name" required>\</div>
+\<div>\<label for="phone">Phone\</label>\<input id="phone" name="phone" type="tel" autocomplete="tel" required>\</div>
+\<div class="full">\<label for="email">Email\</label>\<input id="email" name="email" type="email" autocomplete="email" required>\</div>
+\<div class="full">\<label for="postcode">Delivery postcode\</label>\<input id="postcode" name="postcode" required>\</div>
+\<div class="full">\<label for="message">Tell us about the job\</label>\<textarea id="message" name="message" placeholder="Access details, operator required, anything else we should know\...">\</textarea>\</div>
+\</div>
+\<button class="cta" type="submit">SEND HIRE REQUEST\</button>
+\<div class="note">Submitting this form sends a hire enquiry for confirmation. It does not guarantee availability until we confirm it with you.\</div>
+\</form>
+\<script>
+function sendHireWhatsApp(event){
+  event.preventDefault();
+  const form = document.getElementById('hire-enquiry');
+  const data = new FormData(form);
+  const msg =
+    "ARUNDEL PLANT HIRE - HIRE ENQUIRY%0A%0A" +
+    "Machine: " + encodeURIComponent(data.get("machine") || "") + "%0A" +
+    "Hire length: " + encodeURIComponent(data.get("hire\_length") || "") + "%0A" +
+    "Start date: " + encodeURIComponent(data.get("start\_date") || "") + "%0A" +
+    "End date: " + encodeURIComponent(data.get("end\_date") || "") + "%0A" +
+    "Name: " + encodeURIComponent(data.get("name") || "") + "%0A" +
+    "Phone: " + encodeURIComponent(data.get("phone") || "") + "%0A" +
+    "Email: " + encodeURIComponent(data.get("email") || "") + "%0A" +
+    "Delivery postcode: " + encodeURIComponent(data.get("postcode") || "") + "%0A" +
+    "Job details: " + encodeURIComponent(data.get("message") || "");
+  window\.location.href = "[https://wa.me/447557367638?text=](https://wa.me/447557367638?text=)" + msg;
+}
+\</script>
+
+\<div class="contact-card" id="contact">\<h3>Prefer to speak to us?\</h3>\<p style="color:#aaa">Call or email us with your postcode, machine required and hire dates.\</p>
+\<div class="contact-line">\<strong>Phone\</strong>\<a href="tel:07557367638">07557 367638\</a>\</div>
+\<div class="contact-line">\<strong>Email\</strong>\<a href="mailto\:arundelplanthire\@hotmail.com">arundelplanthire\@hotmail.com\</a>\</div>
+\<div class="contact-line">\<strong>Area\</strong>\<span>Arundel, Littlehampton &amp; surrounding West Sussex\</span>\</div>
+\<div class="contact-line">\<strong>Payment\</strong>\<span>Card payments accepted.\</span>\</div>
+\<div class="area">\<span class="pill">Arundel\</span>\<span class="pill">Littlehampton\</span>\<span class="pill">West Sussex\</span>\</div>
+\</div>
+\</div>\</div>
+\</section>
+\</main>
+
+\<footer>\<div class="wrap footer-row">\<div>\<div class="footer-brand">ARUNDEL PLANT HIRE\</div>Mini digger, doorway digger &amp; tracked dumper hire across West Sussex.\<div class="social-links">\<a class="social-link" href="[https://www.facebook.com/arundelplanthire/?locale=en\_GB](https://www.facebook.com/arundelplanthire/?locale=en_GB)" target="\_blank" rel="noopener noreferrer" aria-label="Facebook">\<svg viewBox="0 0 24 24" aria-hidden="true">\<path d="M14 8h3V4h-3c-3.31 0-5 1.69-5 5v3H6v4h3v8h4v-8h3.2l.8-4H13V9c0-.67.33-1 1-1Z"/>\</svg>Facebook\</a>\<a class="social-link" href="[https://www.instagram.com/arundelplant\_hire/](https://www.instagram.com/arundelplant_hire/)" target="\_blank" rel="noopener noreferrer" aria-label="Instagram">\<svg viewBox="0 0 24 24" aria-hidden="true">\<path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5Zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5ZM17.5 6a1.25 1.25 0 1 1-1.25 1.25A1.25 1.25 0 0 1 17.5 6Z"/>\</svg>Instagram\</a>\</div>\</div>\<div>© 2026 Arundel Plant Hire\</div>\</div>\</footer>
+\<div class="mobile-cta">\<a class="cta" href="/booking/">HIRE NOW\</a>\</div>
+
+\<div class="social-review-buttons" style="display\:flex;flex-wrap\:wrap;gap:12px;justify-content\:center;align-items\:center;margin:24px auto;">
+  \<a href="[https://www.facebook.com/arundelplanthire/?locale=en\_GB](https://www.facebook.com/arundelplanthire/?locale=en_GB)" target="\_blank" rel="noopener" aria-label="Facebook">Facebook\</a>
+  \<a href="[https://www.instagram.com/arundelplant\_hire/](https://www.instagram.com/arundelplant_hire/)" target="\_blank" rel="noopener" aria-label="Instagram">Instagram\</a>
+  \<a href="[https://g.page/r/CYo3UeVEOiDEEBM/review](https://g.page/r/CYo3UeVEOiDEEBM/review)" target="\_blank" rel="noopener" aria-label="Leave a Google Review">Leave a Google Review\</a>
+\</div>
+
+\</body>
+\</html>
