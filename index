@@ -1,0 +1,1917 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Arundel Plant Hire | Mini Digger, Doorway Digger & Dumper Hire West Sussex</title>
+
+<meta name="description" content="Arundel Plant Hire provides reliable and affordable mini digger, doorway digger and tracked dumper hire in Arundel, Littlehampton and across West Sussex. Call 07557 367638.">
+
+<meta name="keywords" content="plant hire Arundel, mini digger hire Arundel, digger hire Arundel, mini digger hire Littlehampton, doorway digger hire West Sussex, tracked dumper hire West Sussex, dumper hire Arundel, excavator hire West Sussex">
+
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://www.arundelplanthire.co.uk/">
+
+<meta name="theme-color" content="#f5c400">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Arundel Plant Hire">
+<meta property="og:title" content="Arundel Plant Hire | Digger & Dumper Hire West Sussex">
+<meta property="og:description" content="Mini digger, doorway digger and tracked dumper hire across Arundel, Littlehampton and West Sussex.">
+<meta property="og:url" content="https://www.arundelplanthire.co.uk/">
+<meta property="og:image" content="https://www.arundelplanthire.co.uk/assets/hero-main.jpg">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Arundel Plant Hire | Digger & Dumper Hire West Sussex">
+<meta name="twitter:description" content="Reliable plant hire across Arundel, Littlehampton and West Sussex.">
+<meta name="twitter:image" content="https://www.arundelplanthire.co.uk/assets/hero-main.jpg">
+
+<link rel="preload" as="image" href="assets/hero-main.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<!-- Local Business SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Arundel Plant Hire",
+  "url": "https://www.arundelplanthire.co.uk/",
+  "telephone": "+447557367638",
+  "email": "arundelplanthire@hotmail.com",
+  "description": "Mini digger, doorway digger and tracked dumper hire across Arundel, Littlehampton and West Sussex.",
+  "areaServed": [
+    "Arundel",
+    "Littlehampton",
+    "West Sussex",
+    "Bognor Regis",
+    "Worthing",
+    "Chichester",
+    "Shoreham-by-Sea"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "West Sussex",
+    "addressCountry": "GB"
+  },
+  "priceRange": "££"
+}
+</script>
+
+<!-- FAQ SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What areas do you cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Arundel Plant Hire provides plant hire throughout Arundel, Littlehampton and across West Sussex."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What machines can I hire?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We provide a 1.5 tonne mini digger, 0.75 tonne doorway digger and tracked self-loading dumper."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much is delivery?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Delivery is £30 each way and collection is £30 each way."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are prices subject to VAT?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. All advertised hire prices are subject to VAT."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I book a machine?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Call 07557 367638 or contact Arundel Plant Hire by WhatsApp or email."
+      }
+    }
+  ]
+}
+</script>
+
+<style>
+
+:root {
+  --yellow: #f5c400;
+  --yellow-dark: #d7a900;
+  --black: #17191b;
+  --dark: #202427;
+  --text: #202427;
+  --muted: #687278;
+  --light: #f4f5f3;
+  --white: #ffffff;
+  --line: #e2e5e6;
+  --green: #25d366;
+  --shadow: 0 12px 35px rgba(0,0,0,0.09);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  color: var(--text);
+  background: var(--light);
+  line-height: 1.6;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wrap {
+  width: min(1180px, calc(100% - 36px));
+  margin: auto;
+}
+
+/* TOP BAR */
+
+.topbar {
+  background: var(--yellow);
+  color: #111;
+  text-align: center;
+  padding: 9px 15px;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .5px;
+}
+
+/* SOCIAL BAR */
+
+.social {
+  background: var(--dark);
+  color: #fff;
+  padding: 8px 0;
+}
+
+.social .wrap {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.social a {
+  padding: 7px 13px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.facebook {
+  background: #1877f2;
+}
+
+.instagram {
+  background: linear-gradient(90deg,#e1306c,#833ab4);
+}
+
+.whatsapp {
+  background: var(--green);
+  color: #07150b;
+}
+
+/* HEADER */
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255,255,255,.97);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+  box-shadow: 0 3px 15px rgba(0,0,0,.05);
+}
+
+.nav {
+  min-height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-logo {
+  width: 65px;
+  height: 65px;
+  object-fit: contain;
+}
+
+.brand strong {
+  display: block;
+  font-size: 19px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: .7px;
+  line-height: 1.1;
+}
+
+.brand small {
+  display: block;
+  color: #727a7f;
+  font-size: 9px;
+  letter-spacing: 2px;
+  margin-top: 4px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  font-size: 13px;
+  font-weight: 800;
+}
+
+nav a:hover {
+  color: var(--yellow-dark);
+}
+
+.hire-button {
+  background: var(--yellow);
+  color: #111;
+  border: 2px solid #111;
+  padding: 11px 17px;
+  border-radius: 7px;
+  font-weight: 900;
+}
+
+/* HERO */
+
+.hero {
+  position: relative;
+  min-height: 680px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: #252525;
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  background:
+    url("assets/hero-main.jpg")
+    center 55% / cover
+    no-repeat;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      90deg,
+      rgba(0,0,0,.82),
+      rgba(0,0,0,.57) 52%,
+      rgba(0,0,0,.20)
+    );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  max-width: 760px;
+  padding: 95px 0;
+}
+
+.eyebrow {
+  display: inline-block;
+  color: #111;
+  background: var(--yellow);
+  padding: 7px 12px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 1.5px;
+}
+
+.hero h1 {
+  font-size: clamp(44px,7vw,76px);
+  line-height: .98;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  margin: 18px 0;
+}
+
+.hero h1 span {
+  color: var(--yellow);
+}
+
+.hero p {
+  font-size: 18px;
+  color: #eee;
+  max-width: 680px;
+}
+
+.buttons {
+  display: flex;
+  gap: 11px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 20px;
+  border-radius: 7px;
+  font-weight: 900;
+  transition: .2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+}
+
+.primary {
+  background: var(--yellow);
+  color: #111;
+}
+
+.secondary {
+  background: #fff;
+  color: #111;
+}
+
+/* INFO STRIP */
+
+.strip {
+  background: #111;
+  color: #fff;
+}
+
+.strip-grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+
+.strip-item {
+  text-align: center;
+  padding: 19px;
+  border-right: 1px solid #333;
+}
+
+.strip-item:last-child {
+  border: 0;
+}
+
+.strip strong {
+  display: block;
+  color: var(--yellow);
+  font-size: 16px;
+}
+
+.strip span {
+  font-size: 12px;
+  color: #ccc;
+}
+
+/* SECTIONS */
+
+section {
+  padding: 82px 0;
+}
+
+.heading {
+  max-width: 760px;
+  margin: 0 auto 42px;
+  text-align: center;
+}
+
+.heading h2 {
+  font-size: clamp(32px,5vw,49px);
+  line-height: 1.05;
+  text-transform: uppercase;
+  margin: 10px 0 14px;
+}
+
+.heading p {
+  color: var(--muted);
+  font-size: 16px;
+}
+
+/* EQUIPMENT */
+
+.equipment {
+  background: #eef0ed;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 22px;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: .2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.machine-img {
+  height: 260px;
+  background: #f1f2ef;
+  overflow: hidden;
+}
+
+.machine-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.body {
+  padding: 23px;
+}
+
+.body h3 {
+  font-size: 22px;
+  margin: 0 0 8px;
+}
+
+.body p {
+  color: var(--muted);
+  font-size: 14px;
+  min-height: 70px;
+}
+
+.price {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 15px 0 12px;
+}
+
+.price small {
+  font-size: 12px;
+  color: #70787d;
+  font-weight: 700;
+}
+
+.rates {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+
+.rates div {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid #f0f1ef;
+  font-size: 14px;
+}
+
+.rates div:last-child {
+  border-bottom: 0;
+}
+
+.delivery {
+  margin-top: 15px;
+  background: #fff7cf;
+  border-left: 4px solid var(--yellow);
+  padding: 11px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.body .btn {
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* ABOUT */
+
+.about {
+  background: var(--dark);
+  color: #fff;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+  align-items: center;
+}
+
+.about-image {
+  border-radius: 13px;
+  overflow: hidden;
+}
+
+.about-image img {
+  width: 100%;
+  height: 470px;
+  object-fit: cover;
+}
+
+.about h2 {
+  font-size: clamp(34px,5vw,51px);
+  line-height: 1.05;
+  text-transform: uppercase;
+  margin: 0 0 18px;
+}
+
+.about h2 span {
+  color: var(--yellow);
+}
+
+.about p {
+  color: #c9ced1;
+}
+
+.ticks {
+  list-style: none;
+  padding: 0;
+  margin: 24px 0;
+}
+
+.ticks li {
+  padding: 9px 0;
+  border-bottom: 1px solid #34383a;
+  font-weight: 700;
+}
+
+.ticks li::before {
+  content: "✓";
+  color: var(--yellow);
+  font-size: 19px;
+  margin-right: 10px;
+}
+
+/* AREAS */
+
+.areas {
+  background: #fff;
+}
+
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 9px;
+}
+
+.pill {
+  padding: 9px 14px;
+  border: 1px solid var(--line);
+  border-radius: 99px;
+  background: #f5f6f4;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+/* DELIVERY */
+
+.delivery-section {
+  background: #eef0ed;
+}
+
+.delivery-box {
+  background: #fff;
+  border-radius: 15px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: var(--shadow);
+  max-width: 900px;
+  margin: auto;
+}
+
+.delivery-box h2 {
+  font-size: clamp(30px,5vw,45px);
+  text-transform: uppercase;
+  margin: 0 0 12px;
+}
+
+.delivery-price {
+  display: inline-block;
+  background: var(--yellow);
+  padding: 15px 25px;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 900;
+  margin: 15px 0;
+}
+
+.delivery-box p {
+  color: var(--muted);
+}
+
+/* CTA */
+
+.cta-band {
+  background: var(--yellow);
+  padding: 58px 0;
+}
+
+.cta-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 25px;
+}
+
+.cta-flex h2 {
+  font-size: clamp(30px,5vw,45px);
+  line-height: 1.05;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+}
+
+.cta-flex p {
+  margin: 0;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.black-btn {
+  background: #111;
+  color: #fff;
+}
+
+.white-btn {
+  background: #fff;
+  color: #111;
+}
+
+/* FAQ */
+
+.faq {
+  background: #fff;
+}
+
+.faq-list {
+  max-width: 850px;
+  margin: auto;
+}
+
+details {
+  border-bottom: 1px solid var(--line);
+  padding: 19px 0;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 900;
+  padding-right: 20px;
+}
+
+details p {
+  color: var(--muted);
+  margin: 10px 0 0;
+}
+
+/* CONTACT */
+
+.contact {
+  background: #eef0ed;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  max-width: 950px;
+  margin: auto;
+}
+
+.contact-card {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  padding: 27px;
+  box-shadow: var(--shadow);
+}
+
+.contact-card h3 {
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.line {
+  padding: 14px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.line:last-child {
+  border: 0;
+}
+
+.line strong {
+  display: block;
+  color: #717a80;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+}
+
+.line a {
+  font-size: 19px;
+  font-weight: 900;
+  color: #b58b00;
+}
+
+/* FOOTER */
+
+footer {
+  background: #202427;
+  color: #b9c0c4;
+  padding: 38px 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 35px;
+}
+
+.footer-grid h3 {
+  color: #fff;
+  margin-top: 0;
+}
+
+.footer-grid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-grid li {
+  padding: 5px 0;
+}
+
+.footer-grid a:hover {
+  color: var(--yellow);
+}
+
+.footer-bottom {
+  border-top: 1px solid #34383a;
+  margin-top: 30px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 12px;
+}
+
+/* FLOATING WHATSAPP */
+
+.float-wa {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: var(--green);
+  color: #fff;
+  display: grid;
+  place-items: center;
+  font-size: 27px;
+  box-shadow: 0 8px 25px rgba(0,0,0,.22);
+  z-index: 999;
+}
+
+/* MOBILE */
+
+@media (max-width: 850px) {
+
+  nav {
+    display: none;
+  }
+
+  .nav {
+    min-height: 75px;
+  }
+
+  .hero {
+    min-height: 650px;
+  }
+
+  .hero-content {
+    padding: 75px 0;
+  }
+
+  .strip-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .strip-item {
+    border-right: 0;
+    border-bottom: 1px solid #333;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .about-image img {
+    height: 350px;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .wrap {
+    width: min(100% - 26px,1180px);
+  }
+
+  .brand-logo {
+    width: 52px;
+    height: 52px;
+  }
+
+  .brand strong {
+    font-size: 15px;
+  }
+
+  .brand small {
+    font-size: 7px;
+  }
+
+  .hero h1 {
+    font-size: 45px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  section {
+    padding: 60px 0;
+  }
+
+  .delivery-box {
+    padding: 30px 20px;
+  }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- TOP BAR -->
+
+<div class="topbar">
+  ARUNDEL PLANT HIRE • ARUNDEL • LITTLEHAMPTON • WEST SUSSEX
+</div>
+
+<!-- SOCIAL / CONTACT BAR -->
+
+<div class="social">
+  <div class="wrap">
+
+    <a class="whatsapp"
+       href="https://wa.me/447557367638?text=Hi%20Arundel%20Plant%20Hire%2C%20I%27d%20like%20to%20check%20machine%20availability."
+       target="_blank"
+       rel="noopener">
+       WhatsApp
+    </a>
+
+    <a href="tel:+447557367638">
+      07557 367638
+    </a>
+
+    <a href="mailto:arundelplanthire@hotmail.com">
+      Email Us
+    </a>
+
+  </div>
+</div>
+
+<!-- HEADER -->
+
+<header>
+
+  <div class="wrap nav">
+
+    <a href="#" class="brand">
+
+      <img
+        class="brand-logo"
+        src="assets/logo.png"
+        alt="Arundel Plant Hire logo">
+
+      <div>
+        <strong>Arundel Plant Hire</strong>
+        <small>WEST SUSSEX</small>
+      </div>
+
+    </a>
+
+    <nav>
+
+      <a href="#equipment">Machines</a>
+
+      <a href="#prices">Prices</a>
+
+      <a href="#delivery">Delivery</a>
+
+      <a href="#about">About</a>
+
+      <a href="#faq">FAQ</a>
+
+      <a href="#contact">Contact</a>
+
+      <a class="hire-button" href="#contact">
+        HIRE NOW
+      </a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+<main>
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <div class="hero-bg"></div>
+
+  <div class="wrap">
+
+    <div class="hero-content">
+
+      <span class="eyebrow">
+        LOCAL PLANT HIRE • WEST SUSSEX
+      </span>
+
+      <h1>
+        Plant Hire<br>
+        <span>Done Right.</span>
+      </h1>
+
+      <p>
+        Reliable and affordable mini digger, doorway digger and
+        tracked dumper hire for builders, contractors, landscapers
+        and homeowners across Arundel, Littlehampton and West Sussex.
+      </p>
+
+      <div class="buttons">
+
+        <a
+          class="btn primary"
+          href="tel:+447557367638">
+          📞 CALL 07557 367638
+        </a>
+
+        <a
+          class="btn secondary"
+          href="https://wa.me/447557367638?text=Hi%20Arundel%20Plant%20Hire%2C%20I%27d%20like%20to%20check%20machine%20availability."
+          target="_blank"
+          rel="noopener">
+          💬 WHATSAPP US
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- QUICK INFO -->
+
+<div class="strip">
+
+  <div class="wrap strip-grid">
+
+    <div class="strip-item">
+      <strong>Local & Reliable</strong>
+      <span>Serving West Sussex</span>
+    </div>
+
+    <div class="strip-item">
+      <strong>Competitive Rates</strong>
+      <span>Short & longer hire available</span>
+    </div>
+
+    <div class="strip-item">
+      <strong>Delivery Available</strong>
+      <span>£30 each way</span>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- EQUIPMENT -->
+
+<section class="equipment" id="equipment">
+
+  <div class="wrap">
+
+    <div class="heading">
+
+      <span class="eyebrow">
+        OUR MACHINES
+      </span>
+
+      <h2>
+        Equipment for the job
+      </h2>
+
+      <p>
+        Quality compact plant for groundwork, landscaping,
+        drainage, foundations, driveways and general site work.
+      </p>
+
+    </div>
+
+    <div class="cards">
+
+      <!-- MINI DIGGER -->
+
+      <article class="card">
+
+        <div class="machine-img">
+
+          <img
+            src="assets/machine-14.jpg"
+            alt="1.5 tonne mini digger hire in West Sussex"
+            loading="lazy">
+
+        </div>
+
+        <div class="body">
+
+          <h3>
+            1.5 Tonne Mini Digger
+          </h3>
+
+          <p>
+            A compact and versatile mini digger ideal for
+            groundwork, landscaping, drainage, foundations,
+            driveways and general excavation.
+          </p>
+
+          <div class="price">
+            £90
+            <small>+ VAT / day</small>
+          </div>
+
+          <div class="rates">
+
+            <div>
+              <span>Daily hire</span>
+              <b>£90 + VAT</b>
+            </div>
+
+          </div>
+
+          <div class="delivery">
+            🚚 Delivery: £30 each way<br>
+            🚚 Collection: £30 each way
+          </div>
+
+          <a
+            class="btn primary"
+            href="https://wa.me/447557367638?text=Hi%20Arundel%20Plant%20Hire%2C%20I%27m%20interested%20in%20hiring%20the%201.5%20tonne%20mini%20digger."
+            target="_blank"
+            rel="noopener">
+            CHECK AVAILABILITY
+          </a>
+
+        </div>
+
+      </article>
+
+      <!-- DOORWAY DIGGER -->
+
+      <article class="card">
+
+        <div class="machine-img">
+
+          <img
+            src="assets/machine-14.jpg"
+            alt="0.75 tonne doorway digger hire in West Sussex"
+            loading="lazy">
+
+        </div>
+
+        <div class="body">
+
+          <h3>
+            0.75 Tonne Doorway Digger
+          </h3>
+
+          <p>
+            Our compact doorway digger is ideal for restricted
+            access, gardens, driveways and smaller excavation
+            projects where space is limited.
+          </p>
+
+          <div class="price">
+            £80
+            <small>+ VAT / day</small>
+          </div>
+
+          <div class="rates">
+
+            <div>
+              <span>Daily hire</span>
+              <b>£80 + VAT</b>
+            </div>
+
+          </div>
+
+          <div class="delivery">
+            🚚 Delivery: £30 each way<br>
+            🚚 Collection: £30 each way
+          </div>
+
+          <a
+            class="btn primary"
+            href="https://wa.me/447557367638?text=Hi%20Arundel%20Plant%20Hire%2C%20I%27m%20interested%20in%20hiring%20the%200.75%20tonne%20doorway%20digger."
+            target="_blank"
+            rel="noopener">
+            CHECK AVAILABILITY
+          </a>
+
+        </div>
+
+      </article>
+
+      <!-- TRACKED DUMPER -->
+
+      <article class="card">
+
+        <div class="machine-img">
+
+          <img
+            src="assets/hero-main.jpg"
+            alt="Tracked self-loading dumper hire in West Sussex"
+            loading="lazy">
+
+        </div>
+
+        <div class="body">
+
+          <h3>
+            Tracked Self-Loading Dumper
+          </h3>
+
+          <p>
+            Ideal for moving soil, rubble, aggregate and other
+            materials around building, landscaping and groundwork
+            sites.
+          </p>
+
+          <div class="price">
+            £70
+            <small>+ VAT / day</small>
+          </div>
+
+          <div class="rates">
+
+            <div>
+              <span>Daily hire</span>
+              <b>£70 + VAT</b>
+            </div>
+
+          </div>
+
+          <div class="delivery">
+            🚚 Delivery: £30 each way<br>
+            🚚 Collection: £30 each way
+          </div>
+
+          <a
+            class="btn primary"
+            href="https://wa.me/447557367638?text=Hi%20Arundel%20Plant%20Hire%2C%20I%27m%20interested%20in%20hiring%20the%20tracked%20self-loading%20dumper."
+            target="_blank"
+            rel="noopener">
+            CHECK AVAILABILITY
+          </a>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- PRICES -->
+
+<section id="prices">
+
+  <div class="wrap">
+
+    <div class="heading">
+
+      <span class="eyebrow">
+        PRICE LIST
+      </span>
+
+      <h2>
+        Simple, clear hire rates
+      </h2>
+
+      <p>
+        All advertised hire prices are subject to VAT.
+        Delivery and collection are charged at £30 each way.
+      </p>
+
+    </div>
+
+    <div class="cards">
+
+      <article class="card">
+
+        <div class="body">
+
+          <h3>
+            1.5 Tonne Mini Digger
+          </h3>
+
+          <div class="rates">
+
+            <div>
+              <span>1 Day</span>
+              <b>£90 + VAT</b>
+            </div>
+
+          </div>
+
+        </div>
+
+      </article>
+
+      <article class="card">
+
+        <div class="body">
+
+          <h3>
+            0.75 Tonne Doorway Digger
+          </h3>
+
+          <div class="rates">
+
+            <div>
+              <span>1 Day</span>
+              <b>£80 + VAT</b>
+            </div>
+
+          </div>
+
+        </div>
+
+      </article>
+
+      <article class="card">
+
+        <div class="body">
+
+          <h3>
+            Tracked Self-Loading Dumper
+          </h3>
+
+          <div class="rates">
+
+            <div>
+              <span>1 Day</span>
+              <b>£70 + VAT</b>
+            </div>
+
+          </div>
+
+        </div>
+
+      </article>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- DELIVERY -->
+
+<section class="delivery-section" id="delivery">
+
+  <div class="wrap">
+
+    <div class="delivery-box">
+
+      <span class="eyebrow">
+        DELIVERY & COLLECTION
+      </span>
+
+      <h2>
+        We can bring it to you
+      </h2>
+
+      <div class="delivery-price">
+        £30 each way
+      </div>
+
+      <p>
+        Delivery is available throughout our service area.
+        Delivery is £30 each way and collection is £30 each way.
+      </p>
+
+      <p>
+        Tell us your postcode and hire dates when enquiring
+        and we can confirm availability and delivery arrangements.
+      </p>
+
+      <a
+        class="btn primary"
+        href="https://wa.me/447557367638?text=Hi%20Arundel%20Plant%20Hire%2C%20I%27d%20like%20to%20check%20delivery%20for%20a%20machine%20hire."
+        target="_blank"
+        rel="noopener">
+        ASK ABOUT DELIVERY
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="about" id="about">
+
+  <div class="wrap about-grid">
+
+    <div class="about-image">
+
+      <img
+        src="assets/hero-main.jpg"
+        alt="Arundel Plant Hire mini diggers and construction equipment"
+        loading="lazy">
+
+    </div>
+
+    <div>
+
+      <span class="eyebrow">
+        WHY ARUNDEL PLANT HIRE
+      </span>
+
+      <h2>
+        Good equipment.<br>
+        <span>Good service.</span>
+      </h2>
+
+      <p>
+        Welcome to Arundel Plant Hire, your local source for
+        reliable and cost-effective plant hire in West Sussex.
+      </p>
+
+      <p>
+        We provide compact machinery for builders, contractors,
+        landscapers and homeowners, helping make groundwork
+        and excavation projects easier.
+      </p>
+
+      <ul class="ticks">
+
+        <li>
+          Reliable compact machines
+        </li>
+
+        <li>
+          Competitive hire rates
+        </li>
+
+        <li>
+          Delivery and collection available
+        </li>
+
+        <li>
+          £30 delivery each way
+        </li>
+
+        <li>
+          Serving Arundel, Littlehampton and West Sussex
+        </li>
+
+        <li>
+          Easy booking by phone or WhatsApp
+        </li>
+
+      </ul>
+
+      <a
+        class="btn primary"
+        href="tel:+447557367638">
+        CALL 07557 367638
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- LOCAL SEO -->
+
+<section class="areas">
+
+  <div class="wrap">
+
+    <div class="heading">
+
+      <span class="eyebrow">
+        LOCAL PLANT HIRE
+      </span>
+
+      <h2>
+        Plant hire across West Sussex
+      </h2>
+
+      <p>
+        Arundel Plant Hire provides local plant hire for
+        customers across Arundel, Littlehampton and the
+        surrounding West Sussex area.
+      </p>
+
+    </div>
+
+    <div class="pills">
+
+      <span class="pill">Arundel</span>
+      <span class="pill">Littlehampton</span>
+      <span class="pill">Bognor Regis</span>
+      <span class="pill">Worthing</span>
+      <span class="pill">Chichester</span>
+      <span class="pill">Shoreham-by-Sea</span>
+      <span class="pill">West Sussex</span>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta-band">
+
+  <div class="wrap cta-flex">
+
+    <div>
+
+      <h2>
+        Need a machine?
+      </h2>
+
+      <p>
+        Tell us what machine you need, where you are working
+        and the dates you require it.
+      </p>
+
+    </div>
+
+    <div class="cta-buttons">
+
+      <a
+        class="btn black-btn"
+        href="tel:+447557367638">
+        📞 CALL NOW
+      </a>
+
+      <a
+        class="btn white-btn"
+        href="https://wa.me/447557367638?text=Hi%20Arundel%20Plant%20Hire%2C%20I%27d%20like%20a%20quote."
+        target="_blank"
+        rel="noopener">
+        💬 WHATSAPP
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FAQ -->
+
+<section class="faq" id="faq">
+
+  <div class="wrap">
+
+    <div class="heading">
+
+      <span class="eyebrow">
+        FAQ
+      </span>
+
+      <h2>
+        Frequently asked questions
+      </h2>
+
+    </div>
+
+    <div class="faq-list">
+
+      <details>
+        <summary>
+          What areas do you cover?
+        </summary>
+
+        <p>
+          We provide plant hire throughout Arundel,
+          Littlehampton and across West Sussex.
+          Contact us with your postcode and we can
+          discuss delivery.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          What machines can I hire?
+        </summary>
+
+        <p>
+          We currently offer a 1.5 tonne mini digger,
+          0.75 tonne doorway digger and tracked
+          self-loading dumper.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          How much is delivery?
+        </summary>
+
+        <p>
+          Delivery is £30 each way and collection is
+          £30 each way.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          Are the prices subject to VAT?
+        </summary>
+
+        <p>
+          Yes. All advertised hire prices are subject
+          to VAT.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          Can I hire a machine for more than one day?
+        </summary>
+
+        <p>
+          Yes. Longer hire periods are available.
+          Contact us with your dates and we can confirm
+          the current rate and availability.
+        </p>
+      </details>
+
+      <details>
+        <summary>
+          How can I book?
+        </summary>
+
+        <p>
+          Call 07557 367638, email
+          arundelplanthire@hotmail.com or message us
+          on WhatsApp.
+        </p>
+      </details>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CONTACT -->
+
+<section class="contact" id="contact">
+
+  <div class="wrap">
+
+    <div class="heading">
+
+      <span class="eyebrow">
+        GET IN TOUCH
+      </span>
+
+      <h2>
+        Ready to hire?
+      </h2>
+
+      <p>
+        Contact Arundel Plant Hire today and let's get
+        the right machine booked for your project.
+      </p>
+
+    </div>
+
+    <div class="contact-grid">
+
+      <div class="contact-card">
+
+        <h3>
+          Contact Arundel Plant Hire
+        </h3>
+
+        <div class="line">
+
+          <strong>
+            Phone
+          </strong>
+
+          <a href="tel:+447557367638">
+            07557 367638
+          </a>
+
+        </div>
+
+        <div class="line">
+
+          <strong>
+            Email
+          </strong>
+
+          <a href="mailto:arundelplanthire@hotmail.com">
+            arundelplanthire@hotmail.com
+          </a>
+
+        </div>
+
+        <div class="line">
+
+          <strong>
+            Service Area
+          </strong>
+
+          <span>
+            Arundel, Littlehampton & West Sussex
+          </span>
+
+        </div>
+
+        <div class="line">
+
+          <strong>
+            Delivery & Collection
+          </strong>
+
+          <span>
+            £30 each way
+          </span>
+
+        </div>
+
+      </div>
+
+      <div class="contact-card">
+
+        <h3>
+          Book by WhatsApp
+        </h3>
+
+        <p>
+          Send us the machine you need, your preferred
+          dates and your location.
+        </p>
+
+        <a
+          class="btn primary"
+          href="https://wa.me/447557367638?text=Hi%20Arundel%20Plant%20Hire%2C%20I%27d%20like%20to%20make%20an%20enquiry."
+          target="_blank"
+          rel="noopener">
+          💬 MESSAGE ON WHATSAPP
+        </a>
+
+        <br><br>
+
+        <a
+          class="btn secondary"
+          href="tel:+447557367638">
+          📞 CALL US
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+</main>
+
+<!-- FOOTER -->
+
+<footer>
+
+  <div class="wrap">
+
+    <div class="footer-grid">
+
+      <div>
+
+        <h3>
+          Arundel Plant Hire
+        </h3>
+
+        <p>
+          Reliable and affordable mini digger, doorway
+          digger and tracked dumper hire across Arundel,
+          Littlehampton and West Sussex.
+        </p>
+
+      </div>
+
+      <div>
+
+        <h3>
+          Hire
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="#equipment">
+              1.5 Tonne Mini Digger
+            </a>
+          </li>
+
+          <li>
+            <a href="#equipment">
+              0.75 Tonne Doorway Digger
+            </a>
+          </li>
+
+          <li>
+            <a href="#equipment">
+              Tracked Self-Loading Dumper
+            </a>
+          </li>
+
+          <li>
+            <a href="#prices">
+              Price List
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div>
+
+        <h3>
+          Contact
+        </h3>
+
+        <ul>
+
+          <li>
+            <a href="tel:+447557367638">
+              07557 367638
+            </a>
+          </li>
+
+          <li>
+            <a href="mailto:arundelplanthire@hotmail.com">
+              arundelplanthire@hotmail.com
+            </a>
+          </li>
+
+          <li>
+            West Sussex, UK
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <span>
+        © <span id="year"></span>
+        Arundel Plant Hire. All rights reserved.
+      </span>
+
+      <span>
+        Mini Digger & Dumper Hire • West Sussex
+      </span>
+
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- FLOATING WHATSAPP -->
+
+<a
+  class="float-wa"
+  href="https://wa.me/447557367638?text=Hi%20Arundel%20Plant%20Hire%2C%20I%27d%20like%20to%20check%20availability."
+  target="_blank"
+  rel="noopener"
+  aria-label="Message Arundel Plant Hire on WhatsApp">
+  💬
+</a>
+
+<script>
+document.getElementById("year").textContent =
+  new Date().getFullYear();
+</script>
+
+</body>
+</html>
